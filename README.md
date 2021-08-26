@@ -4,12 +4,19 @@ You can test my api by "http://159.75.208.85:8080".
 
 
 install app:
+
 1、init mysql
+
       yum install mysql-server
+      
       yum install mysql
+      
       systemctl start mysqld.service
+      
       systemctl enable mysqld
+      
       systemctl daemon-reload
+      
 
       mysql -u root -p
       use mysql
