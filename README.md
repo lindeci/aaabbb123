@@ -35,16 +35,28 @@ install app:
       
       
 2、init redis 
+
       yum install redis
+      
       systemctl start redis
+      
       systemctl status redis
+      
       systemctl enable redis
+      
       systemctl restart redis
+      
 
 
 3、install python and fastapi
+
       yum install python39
+      
       pip install redis
+      
       pip install mysql.connector
+      
       pip install fastapi
+      
       pip install uvicorn
+      
